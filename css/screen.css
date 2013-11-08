@@ -1,0 +1,99 @@
+@charset 'utf-8';
+@import url(reset.css);
+@import url(fancybox.css);
+
+/* ----------------------------------------------------- Comment */
+
+.js div { } /* apply only on JavaScript enabled browsers */
+.ie7 div { } /* apply only on Internet Explorer 7 and below */
+.ie6 div { } /* apply only on Internet Explorer 6 and below */
+
+
+html, body {
+    background-color: black;
+    font-family: "Electronic Highway Sign";
+    color: #00ff00;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#points {
+    background-color: #00ff00;
+    color: black;
+    overflow: hidden;
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#points input {
+    border: 0;
+    background: transparent;
+    font-size: 40px;
+    color: black;
+    font-family: "Electronic Highway Sign";
+    width: 100px;
+}
+
+#points a {
+    color: black;
+    text-decoration: none;
+}
+
+#points #guest {
+    float: right;
+    padding-right: 20px;
+}
+
+#points #home {
+    float: left;
+}
+
+#points span {
+    color: red;
+    font-weight: bold;
+}
+
+#teams {
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    font-size: 40px;
+}
+
+#teams #guest {
+    float: right;
+    padding-right: 20px;
+}
+
+#teams #home {
+    float: left;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+ol {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: none;
+}
+
+.active {display: block;}
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 30px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<title>FamilienDuell</title>
+	<link href="css/screen.css" rel="stylesheet" media="screen" type="text/css" />
+	<link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="index, follow" />
+	<script src="js/html5.js"></script>
+	<script>document.documentElement.className += " js";</script>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" /> 
+</head>
+
+<!--[if lt IE 7]><body class="ie7 ie6"><![endif]-->
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if gt IE 7]><body><![endif]-->
+<!--[if !IE]><!--><body><!-- <![endif]-->
+
+	<!-- Content goes here -->
+	<h1>kult familien duell</h1>
+	
+	<ol class="active" id="frage1">
+	   <li rev="39" rel="Mikrofon">_____________________________ --</li>
+	   <li rev="13" rel="Lautsprecher">_____________________________ --</li>
+	   <li rev="12" rel="Band">_____________________________ --</li>
+	   <li rev="10" rel="Scheinwerfer">_____________________________ --</li>
+	   <li rev="6" rel="Instrument">_____________________________ --</li>
+	   <li rev="4" rel="Verstaerker">_____________________________ --</li>
+	</ol>
+	<ol id="frage2">
+	   <li rev="34" rel="Geld">_____________________________ --</li>
+	   <li rev="16" rel="Regenschirm/Kleidung">_____________________________ --</li>
+	   <li rev="14" rel="Krug">_____________________________ --</li>
+	   <li rev="11" rel="gute Laune">_____________________________ --</li>
+	   <li rev="7" rel="Freunde">_____________________________ --</li>
+	   <li rev="4" rel="Bons">_____________________________ --</li>
+	</ol>
+
+	<ol id="frage3">
+	   <li rev="33" rel="schlafen">_____________________________ --</li>
+	   <li rev="18" rel="weiterfeiern">_____________________________ --</li>
+	   <li rev="15" rel="Koerperhygiene">_____________________________ --</li>
+	   <li rev="10" rel="Heimgehen">_____________________________ --</li>
+	   <li rev="9" rel="Alkoholabbauen">_____________________________ --</li>
+	   <li rev="8" rel="Aufraeumen">_____________________________ --</li>
+	</ol>
+	<ol id="frage4">
+	   <li rev="21" rel="Sex">_____________________________ --</li>
+	   <li rev="18" rel="Partnervermittlung">_____________________________ --</li>
+	   <li rev="17" rel="Kuessen">_____________________________ --</li>
+	   <li rev="16" rel="arbeiten">_____________________________ --</li>
+	   <li rev="7" rel="anstossen">_____________________________ --</li>
+	   
+	</ol>
+
+	<ol id="frage5">
+	   <li rev="38" rel="Musik">_____________________________ --</li>
+	   <li rev="13" rel="Eintritt">_____________________________ --</li>
+	   <li rev="9" rel="Spass">_____________________________ --</li>
+	   <li rev="8" rel="Werbemittel">_____________________________ --</li>
+	   <li rev="7" rel="Liebe">_____________________________ --</li>
+	</ol>
+    <ol id="frage6">
+	   <li rev="44" rel="kein Grund">_____________________________ --</li>
+	   <li rev="16" rel="schlechtes Wetter">_____________________________ --</li>
+	   <li rev="11" rel="Krankheit">_____________________________ --</li>
+	   <li rev="7" rel="Todesfall">_____________________________ --</li>
+	   <li rev="5" rel="Terrorismus">_____________________________ --</li>
+	</ol>
+    <ol id="frage7">
+	   <li rev="24" rel="Bon">_____________________________ --</li>
+	   <li rev="14" rel="Rondell">_____________________________ --</li>
+	   <li rev="11" rel="Ball">_____________________________ --</li>
+	   <li rev="9" rel="Becher">_____________________________ --</li>
+	</ol>
+    <ol id="frage8">
+	   <li rev="49" rel="Gitarre">_____________________________ --</li>
+	   <li rev="33" rel="Schmetterling">_____________________________ --</li>
+	   <li rev="4" rel="Billie Hollyday">_____________________________ --</li>
+	   <li rev="3" rel="fliegende Kuh">_____________________________ --</li>
+	</ol>
+    <ol id="frage9">
+	   <li rev="38" rel="60">_____________________________ --</li>
+	   <li rev="19" rel="90">_____________________________ --</li>
+	   <li rev="11" rel="300">_____________________________ --</li>
+	   <li rev="6" rel="30">_____________________________ --</li>
+	</ol>
+    <ol id="frage10">
+	   <li rev="24" rel="Glas">_____________________________ --</li>
+	   <li rev="13" rel="Kleidung">_____________________________ --</li>
+	   <li rev="12" rel="Gesundheit">_____________________________ --</li>
+	   <li rev="10" rel="Gehirnzellen">_____________________________ --</li>
+	</ol>
+	<div id="teams">
+	   <div id="home">Kult-Familie</div>
+	   <div id="guest">Besucher</div>
+	</div>
+    <div id="points">
+        <a id="counter" href="javascript:nextQ()">1</a>
+        <div id="home"><input type="text" value="0" /> <span></span></div>
+        <div id="guest"><span></span> <input type="text" value="0" /></div>
+    </div>
+    
+    <audio src="reveap.mp3" id="reveal" />
+    
+	<script src="js/jquery-1.6.1.min.js"></script>
+	<script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="js/domscript.js"></script>
+	<script>jQuery(dom_init);</script>
+</body>
+</html>
